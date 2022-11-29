@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/nullstyle.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!--[if lt IE 9]><link rel="stylesheet" href="css/style_ie8.css"><![endif]-->
+  <title>Крутой Маркетинг_Цена Впроса</title>
+</head>
+<body>
+  <div class="u1">
+    <div class="u1_1">
+      <img src="./img/цена_вопроса/Цена_вопроса.png" alt="#">
+      <div class="u1_1_1">
+        <h2>Цена <span>вопроса?</span></h2>
+        <div class="u1_1_2">Все просто — базовый тариф стоит 30 000 рублей в месяц. За эти деньги вы получаете маркетолога, специалиста по рекламе и дизайнера.</div>
+      </div>
+    </div>
+    <div class="u1_2">
+      <div class="u1_2_1">30 000 РУБЛЕЙ</div>
+      <div class="u1_2_2">
+        <img src="./img/цена_вопроса/Реальный_маркетинг.png" alt="#">
+        <button onclick="openModal ()">Попробовать «Реальный маркетинг» под ключ</button>
+      </div>
+    </div>
+    <div class="i24_4" id="modal">
+      <div class="i24_4_1">
+        <img src="./img/цена_вопроса/Close.svg" alt="exit" onclick="closeModal ()">
+      </div>
+      <div class="i24_4_2">
+        <img src="./img/цена_вопроса/ie8/close.png" alt="exit" onclick="closeModal ()">
+      </div>
+      <div class="i24_4_3">
+        <h2>Оставьте заявку и мы вам перезвоним</h2>
+      </div>
+      <div class="i24_4_4">
+        <form name="form" onsubmit="return validation ()" action="">
+          <div class="i24_4_5">
+            <span id="i24_4_10"></span>
+            <textarea id="name" autocomplete="off" type="name" placeholder="Ваше имя" name="name"></textarea>
+          </div>
+          <div class="i24_4_6">
+            <span id="i24_4_11"></span>
+            <textarea id="tel" autocomplete="off" type="tel" placeholder="Номер телефона" name="tel"></textarea>
+          </div>
+          <div class="i24_4_7">
+            <p>Нажимая кнопку “Оставить заявку” вы соглашаетесь <a href="#">с политикой конфиденциальности</a></p>
+          </div>
+          <div class="i24_4_8">
+            <button type="submit" onclick="validation () ">Оставить заявку</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="i24_4_9" onclick="closeModal ()" id="bgmodal"></div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>

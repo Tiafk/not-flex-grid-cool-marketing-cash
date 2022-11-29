@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Название блока</title>
+  <link rel="stylesheet" href="css/nullstyle.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]><link rel="stylesheet" href="css/style_ie8.css"><![endif]-->
+</head>
+
+<body>
+  <div class="i24">
+    <div class="i24_1">
+      <div class="i24_1_1">
+        <img src="img/shutterstock_1388397 2.png" alt="img3">
+      </div>
+      <div class="i24_1_4">
+        <div class="i24_1_2">
+          <h2>На <span>чистоту</span></h2>
+        </div>
+        <div class="i24_1_5">
+          <img src="img/shutterstock_1388397 2.png" alt="img3">
+        </div>
+        <div class="i24_1_3">
+          <p>Брифы, ТЗ и массовые конф-коллы придумали те, кому нечего сказать.</p>
+          <p>Мы не тратим время, сразу делаем дело
+            и как видите, круто выходит!</p>
+        </div>
+      </div>
+    </div>
+    <div class="i24_2">
+      <div class="i24_2_1">
+        <div class="i24_2_2">
+          <p>С нами не нужно проводить длительных переговоров, обсуждений и прочих прелюдий. Мы же сайт делаем, а не
+            сексом планируем заниматься.</p>
+        </div>
+        <div class="i24_2_3">
+          <p>Мы готовы колдовать в рамках этапа над любыми пожеланиями.</p>
+          <p>При этом, не возьмем с вас дополнительные деньги (в пределах разумного, в пределах договора).</p>
+        </div>
+        <div class="i24_2_4">
+          <p>Делаем бизнес «под ключ»:</p>
+          <p>С нами вы создадите первую посадку, настроите трафик, получите прибыль и отдадите нам её дальше, чтоб мы
+            наращивали Вам оборот.</p>
+        </div>
+      </div>
+      <div class="i24_2_5">
+        <div class="i24_2_6">
+          <p>Создаём рабочую группу в Telegram и добавляем всех участников проекта. Все кристально прозрачно, как вода
+            на дней Байкала.</p>
+        </div>
+        <div class="i24_2_7">
+          <p>Мы знаем все виды сайтов и зачем они используются – мы не будем делать многостраничный лендинг или
+            СЕО-квиз. Мы – Реальные Маркетологи.</p>
+        </div>
+        <div class="i24_2_8">
+          <p>Если хотите, можем сделать все вообще без вас. При чём весь бизнес, у нас много опыта. Достаточно указать
+            нас в соучеридителях компании.</p>
+        </div>
+      </div>
+      <div class="i24_2_9">
+        <div class="i24_2_10">
+          <p>Никаких ритуалов, танцев с бубнами, «особых» технологий. Только аналитика, здравомыслие и наш богатый опыт.
+          </p>
+        </div>
+        <div class="i24_2_11">
+          <p>Однозначно, лучший дизайн, который вы видели. Все потому, что мы используем авторские иллюстрации и делаем
+            все с нуля или в рамках брендбука.</p>
+        </div>
+        <div class="i24_2_12">
+          <p>Наши цены одинаковы для компаний любого уровня, но если Вы хотите сайт, как у Apple, готовьтесь потратиться
+            на рендеринг.</p>
+        </div>
+      </div>
+    </div>
+    <div class="i24_3">
+      <div class="i24_3_1">
+        <button onclick="openModal ()">Давайте начнем</button>
+      </div>
+      <div class="i24_3_2">
+        <a href="#">Скачать прайс-лист</a>
+      </div>
+    </div>
+    <div class="i24_4" id="modal">
+      <div class="i24_4_1">
+        <img src="img/Close.svg" alt="exit" onclick="closeModal ()">
+      </div>
+      <div class="i24_4_2">
+        <img src="img/ie8/close.png" alt="exit" onclick="closeModal ()">
+      </div>
+      <div class="i24_4_3">
+        <h2>Оставьте заявку и мы вам перезвоним</h2>
+      </div>
+      <div class="i24_4_4">
+        <form name="form" onsubmit="return validation ()" action="">
+          <div class="i24_4_5">
+            <span id="i24_4_10"></span>
+            <input id="name" autocomplete="off" type="name" placeholder="Ваше имя" name="name">
+          </div>
+          <div class="i24_4_6">
+            <span id="i24_4_11"></span>
+            <input id="tel" autocomplete="off" type="tel" placeholder="Номер телефона" name="tel">
+          </div>
+          <div class="i24_4_7">
+            <p>Нажимая кнопку “Оставить заявку” вы соглашаетесь <a href="#">с политикой конфиденциальности</a></p>
+          </div>
+          <div class="i24_4_8">
+            <button type="submit" onclick="validation () ">Оставить заявку</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="i24_4_9" onclick="closeModal ()" id="bgmodal"></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
